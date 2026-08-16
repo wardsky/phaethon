@@ -32,7 +32,7 @@ jobs:
 
     - name: Install Qt
       id: install_qt
-      uses: jurplel/install-qt-action@v2
+      uses: jurplel/install-qt-action@v4
       with:
         version: 6.0.0
         cached: ${{ steps.cache_qt.outputs.cache-hit }}
